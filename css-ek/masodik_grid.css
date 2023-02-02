@@ -1,0 +1,8 @@
+article {
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px;    
+    grid-gap: 10px;
+}
+article {
+    background-color: black;
+}

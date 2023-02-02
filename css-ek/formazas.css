@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main, header, article, .kep, nav, header,  section{
+    border: 1px solid lightgrey;
+}
+h1 {
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    list-style-type: none;
+    padding-left: 0px;
+    gap: 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffcc66;
+    text-align: center;
+    background: #339900;
+    padding: 5px;
+    display: inline-block;
+    width: 150px;
+}
+nav li {
+    background-color: green;
+    text-align: center;
+}
+nav a:hover {
+    background: #66cc00;
+    color: #ff3300;    
+}
+#active {
+    color: #ffff33;
+    background: #66cc00;
+}
+#aktive:hover {
+    color: #ff3300;
+    background: #66cc00;
+}
+article {
+    padding: 5px;
+}
+article .kep {
+    text-align: center;
+    color: lightgrey;
+}
+main h1 {
+    padding: 10px;
+    color: #339900;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
